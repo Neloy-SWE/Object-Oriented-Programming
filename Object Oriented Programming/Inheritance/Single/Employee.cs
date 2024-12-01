@@ -10,14 +10,12 @@ namespace Object_Oriented_Programming.Inheritance.Single
     {
         public int id;
         public string name;
-        public string position;
         public int positionId;
 
-        public Employee(int id, string name, string position, int positionId)
+        public Employee(int id, string name, int positionId)
         {
             this.id = id;
             this.name = name;
-            this.position = position;
             this.positionId = positionId;
         }
 
@@ -26,7 +24,7 @@ namespace Object_Oriented_Programming.Inheritance.Single
             Console.WriteLine("Call this method to get details");
         }
 
-        public void CheckResponsibilies()
+        public void CheckResponsibilities()
         {
             Console.WriteLine("Call this method to check responsibilities");
         }
