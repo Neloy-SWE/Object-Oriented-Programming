@@ -20,10 +20,13 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 //Console.WriteLine(cc1.Details);
 
 // private:
-Console.WriteLine(PrivateConstructor.name);
+//Console.WriteLine(PrivateConstructor.name);
 
-// private constructor:
-
+// static:
+StaticConstructor sc1 = new(1);
+sc1.Show();
+sc1 = new(2);
+StaticConstructor sc2 = new(3);
 
 // inheritance:
 // single:
