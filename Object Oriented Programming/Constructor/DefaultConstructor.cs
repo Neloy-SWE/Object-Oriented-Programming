@@ -24,7 +24,8 @@ namespace Object_Oriented_Programming.Constructor
 
         public DefaultConstructor()
         {
-            name = "";
+            this.num = 10;
+            this.name = "Hello";
             Console.WriteLine("Default constructor called");
         }
     }

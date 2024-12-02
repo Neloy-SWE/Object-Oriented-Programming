@@ -6,14 +6,18 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 
 // constructor:
 // default:
-DefaultConstructor dc = new();
-Console.WriteLine(dc.num); // warning CS0649: Field 'DefaultConstructor.num' is never assigned to, and will always have its default value 0
-Console.WriteLine(dc.name); // warning CS0649: Field 'DefaultConstructor.name' is never assigned to, and will always have its default value null
+//DefaultConstructor dc = new();
+//Console.WriteLine(dc.num); // warning CS0649: Field 'DefaultConstructor.num' is never assigned to, and will always have its default value 0
+//Console.WriteLine(dc.name); // warning CS0649: Field 'DefaultConstructor.name' is never assigned to, and will always have its default value null
 
 // parameterized:
-ParameterizedConstructor pc = new(name: "A", id: 1);
-Console.WriteLine(pc.name);
-Console.WriteLine(pc.id);
+//ParameterizedConstructor pc = new(name: "A", id: 1);
+//Console.WriteLine(pc.name);
+//Console.WriteLine(pc.id);
+
+// copy:
+CopyConstructor cc1 = new(new(1, "Engineer"));
+Console.WriteLine(cc1.Details);
 
 // inheritance:
 // single:
