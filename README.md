@@ -25,3 +25,21 @@ Type:
 3. copy constructor.
 4. private constructor.
 5. static constructor.
+
+## Four main principles of object oriented programming:
+1. Encapsulation
+2. Inheritance
+3. Abstraction
+4. polymorphism
+
+### Inheritance:
+inheritance allows one class (child) to acquire properties and methods from another class (parent). it promotes code reusability.
+
+Type:
+1. single: one child inherits from one parent
+2. multilevel: a child class inherits from another child class
+3. heirarchical: multiple clild classes inherit from the same parent class
+4. hybrid: combination of two or more types of inheritance
+
+Note:
+1. c# does not allow multiple inheritance directly. we can achieve it using interface
