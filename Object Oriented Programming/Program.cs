@@ -24,6 +24,17 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 //manager.GetDetails();
 //manager.CheckResponsibilities();
 
+/* 
+ * in the above example of single inheritance, 
+ * there are 3 derived class that extend one single parent class
+ * this is an example of hierarchical inheritance.
+ * 
+ * if we pick parent class and one derived class,
+ * then it is an example of single inheritance
+ * and with 3 derived class,
+ * it is an example of hierarchical inheritance.
+ */
+
 
 // multilevel:
 
@@ -50,7 +61,7 @@ level1Eng.CheckResponsibilities();
 //Level1 level = new Level2();
 //level.CheckResponsibilities();
 
-Level2 level2Eng = new();
-level2Eng.CheckResponsibilities();
-level2Eng.ExtraResponsibilities();
+//Level2 level2Eng = new();
+//level2Eng.CheckResponsibilities();
+//level2Eng.ExtraResponsibilities();
 

@@ -11,6 +11,7 @@ namespace Object_Oriented_Programming.Inheritance.MultiLevel.Derived
     {
         public new void CheckResponsibilities()
         {
+            base.CheckResponsibilities();
             Console.WriteLine("Responsibilities:\n");
             Console.WriteLine("Develop software");
             Console.WriteLine("Report to level 2");
