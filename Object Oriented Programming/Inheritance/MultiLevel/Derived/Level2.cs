@@ -10,7 +10,7 @@ namespace Object_Oriented_Programming.Inheritance.MultiLevel.Derived
     {
         public new void CheckResponsibilities()
         {
-            base.CheckResponsibilities();
+            //base.CheckResponsibilities();
             Console.WriteLine("Responsibilities:\n");
             Console.WriteLine("Review code");
             Console.WriteLine("Report to manager");

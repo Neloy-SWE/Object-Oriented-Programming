@@ -1,6 +1,14 @@
-﻿using Object_Oriented_Programming.Inheritance.MultiLevel;
+﻿using Object_Oriented_Programming.Constructor;
+using Object_Oriented_Programming.Inheritance.MultiLevel;
 using Object_Oriented_Programming.Inheritance.MultiLevel.Derived;
 using Object_Oriented_Programming.Inheritance.Single.Derived;
+
+
+// constructor:
+// default:
+DefaultConstructor dc = new();
+Console.WriteLine(dc.num); // warning CS0649: Field 'DefaultConstructor.num' is never assigned to, and will always have its default value 0
+Console.WriteLine(dc.name); // warning CS0649: Field 'DefaultConstructor.name' is never assigned to, and will always have its default value null
 
 // inheritance:
 // single:
@@ -47,8 +55,8 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 
 //Level1 level1Eng = new Level(); // not possible to call parent in child
 
-Level1 level1Eng = new();
-level1Eng.CheckResponsibilities();
+//Level1 level1Eng = new();
+//level1Eng.CheckResponsibilities();
 
 // derived class level2:
 /* 
