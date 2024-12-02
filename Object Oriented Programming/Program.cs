@@ -16,8 +16,14 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 //Console.WriteLine(pc.id);
 
 // copy:
-CopyConstructor cc1 = new(new(1, "Engineer"));
-Console.WriteLine(cc1.Details);
+//CopyConstructor cc1 = new(new(1, "Engineer"));
+//Console.WriteLine(cc1.Details);
+
+// private:
+Console.WriteLine(PrivateConstructor.name);
+
+// private constructor:
+
 
 // inheritance:
 // single:
