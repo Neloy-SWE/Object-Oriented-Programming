@@ -1,5 +1,6 @@
 ﻿using Object_Oriented_Programming.Constructor;
 using Object_Oriented_Programming.Encapsulation;
+using Object_Oriented_Programming.Encapsulation.OtherAccessModifiers;
 using Object_Oriented_Programming.Inheritance.MultiLevel;
 using Object_Oriented_Programming.Inheritance.MultiLevel.Derived;
 using Object_Oriented_Programming.Inheritance.Single.Derived;
@@ -33,8 +34,28 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 //Encapsulation:
 // file access modifier check:
 //FileAccessModifierExample example = new FileAccessModifierExample(); // cannot call directly
-Check check = new();
-check.RunTask();
+
+//Check check = new();
+//check.RunTask();
+
+// other modifiers check:
+EmployeeDetails employee = new();
+employee.SetEmployeeDetails(id: "E123", department: "Development", salaryAmount: 60000, roleName: "Developer");
+employee.Name = "Jhon";
+employee.DisplayDetails();
+
+
+ManagerDetails manager = new();
+manager.SetManagerDetails(department: "Management", salaryAmount: 80000, roleName: "Team Lead");
+manager.Name = "Jane";
+Console.WriteLine("Manager Name: " + manager.Name);
+manager.DisplayManagerDetails();
+
+EngineerDetails engineerDetails = new();
+engineerDetails.SetEngineerDetails(updateCompanyName: "New TechCorp", role: "Senior Developer", "Snow");
+engineerDetails.DisplayEngineerDetails();
+
+
 
 
 // inheritance:
