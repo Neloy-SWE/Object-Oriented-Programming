@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Object_Oriented_Programming.Encapsulation.OtherAccessModifiers
 {
-    internal class Employee
+    internal class EmployeeDetails
     {
-        private string employeeId;
-        protected string department;
+        private string employeeId = "";
+        protected string department = "";
         internal string companyName = "TechCorp";
-        public string Name { get; set; }
-        protected internal string role;
+        public string Name { get; set; } = "";
+        protected internal string role = "";
         private protected decimal salary;
 
         public void SetEmployeeDetails(string id, string department, decimal salaryAmount, string roleName)
@@ -31,6 +31,7 @@ namespace Object_Oriented_Programming.Encapsulation.OtherAccessModifiers
             Console.WriteLine($"Salary: {salary}");
             Console.WriteLine($"Company: {companyName}");
             Console.WriteLine($"Name: {Name}");
+            Console.WriteLine("\n\n");
         }
     }
 }
