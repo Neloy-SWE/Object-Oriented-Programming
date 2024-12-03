@@ -43,3 +43,17 @@ Type:
 
 Note:
 1. c# does not allow multiple inheritance directly. we can achieve it using interface
+
+### Encapsulation:
+encapsulation is the practice of bundling the data (fields) and the methods (functions) that operate on the data into a single unit, typically a clas. it also involves restricting direct access to some components of the obejct to ensure controlled interaction.
+
+**access modifiers:** access modifiers specify the accessibility of types (class, interface, etc) and type members (fields, methods, etc).
+
+Type:
+1. public: accessed from anywhere.
+2. private: only be accessed within the same class or struct.
+3. protected: obly be accessed from the same class and its derived classes.
+4. internal: access is limited to the current assembly.
+5. protected internal: access is limited to the current assembly or types derived from the containing class.
+6. private protected: access is limited to the containing class or types derived from the containing class within the currecnt assembly.
+7. file: the declared type is only visible in the current source file. file scoped types are generally used for source generators.
