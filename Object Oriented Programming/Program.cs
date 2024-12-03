@@ -1,4 +1,5 @@
 ﻿using Object_Oriented_Programming.Constructor;
+using Object_Oriented_Programming.Encapsulation;
 using Object_Oriented_Programming.Inheritance.MultiLevel;
 using Object_Oriented_Programming.Inheritance.MultiLevel.Derived;
 using Object_Oriented_Programming.Inheritance.Single.Derived;
@@ -23,10 +24,18 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 //Console.WriteLine(PrivateConstructor.name);
 
 // static:
-StaticConstructor sc1 = new(1);
-sc1.Show();
-sc1 = new(2);
-StaticConstructor sc2 = new(3);
+//StaticConstructor sc1 = new(1);
+//sc1.Show();
+//sc1 = new(2);
+//StaticConstructor sc2 = new(3);
+
+
+//Encapsulation:
+// file access modifier check:
+//FileAccessModifierExample example = new FileAccessModifierExample(); // cannot call directly
+Check check = new();
+check.RunTask();
+
 
 // inheritance:
 // single:
