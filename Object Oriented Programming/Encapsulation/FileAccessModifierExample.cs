@@ -8,12 +8,12 @@ namespace Object_Oriented_Programming.Encapsulation
 {
     file class FileAccessModifierExample
     {
-       public int a = 10;
+        public int a = 10;
     }
 
     class Check
     {
-       public void RunTask()
+        public void RunTask()
         {
             FileAccessModifierExample example = new FileAccessModifierExample();
             Console.WriteLine(example.a);
