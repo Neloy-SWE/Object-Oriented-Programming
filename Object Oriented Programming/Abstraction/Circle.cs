@@ -11,6 +11,7 @@ namespace Object_Oriented_Programming.Abstraction
         public override void Draw()
         {
             Console.WriteLine("Drawing a circle");
+            Console.WriteLine("\n\n");
         }
     }
 }
