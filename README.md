@@ -64,3 +64,5 @@ abstraction is the process of hiding implementation details and showing only the
 2. interfaces
 
 **abstract class:** an abstract class serves as a blueprint for other classes. it can have abstract methods (without implementation) and concrete methods (with implementation). it cannot be instantiated.
+
+**interface:** an interface is a contract that defines a set of methods or properties without implementations. classes implementing an interface must provide the implementation.

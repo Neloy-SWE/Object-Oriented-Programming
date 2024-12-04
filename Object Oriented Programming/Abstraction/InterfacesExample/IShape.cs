@@ -8,6 +8,10 @@ namespace Object_Oriented_Programming.Abstraction.InterfacesExample
 {
     internal interface IShape
     {
+        //public abstract void Draw();
         void Draw();
+        //{
+        //    Console.WriteLine("Hello");
+        //}
     }
 }

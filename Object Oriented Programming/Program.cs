@@ -151,8 +151,9 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 
 // interface:
 
-IShape triangle = new Triangle();
-triangle.Draw();
+//IShape triangle = new Triangle();
+//triangle.Draw();
 
-IShape square = new Square();
-square.Draw();
+//IShape square = new Square();
+//square.Draw();
+
