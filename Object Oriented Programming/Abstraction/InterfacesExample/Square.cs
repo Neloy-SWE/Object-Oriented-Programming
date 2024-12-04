@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Object_Oriented_Programming.Abstraction.InterfacesExample
 {
-    internal class Triangle : IShape
+    internal class Square : IShape
     {
         public void Draw()
         {
-            Console.WriteLine("Drawing a triangle");
+            Console.WriteLine("Drawing a square");
         }
     }
 }
