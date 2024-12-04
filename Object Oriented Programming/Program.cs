@@ -1,4 +1,5 @@
-﻿using Object_Oriented_Programming.Constructor;
+﻿using Object_Oriented_Programming.Abstraction;
+using Object_Oriented_Programming.Constructor;
 using Object_Oriented_Programming.Encapsulation;
 using Object_Oriented_Programming.Encapsulation.OtherAccessModifiers;
 using Object_Oriented_Programming.Inheritance.Hybrid;
@@ -124,12 +125,24 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 
 
 // hybrid:
-Bengal bengalCat = new();
-bengalCat.SetDetails("Bengal", 1);
-bengalCat.DisplayDetails();
-bengalCat.GetColor();
+//Bengal bengalCat = new();
+//bengalCat.SetDetails("Bengal", 1);
+//bengalCat.DisplayDetails();
+//bengalCat.GetColor();
 
-American americanCat = new();
-americanCat.SetDetails("American", 2);
-americanCat.DisplayDetails();
-americanCat.TrainingStatus();
+//American americanCat = new();
+//americanCat.SetDetails("American", 2);
+//americanCat.DisplayDetails();
+//americanCat.TrainingStatus();
+
+
+// abstraction:
+// class:
+
+Shape circle = new Circle();
+circle.Info();
+circle.Draw();
+
+Shape rectangle = new Rectangle();
+rectangle.Info();
+rectangle.Draw();
