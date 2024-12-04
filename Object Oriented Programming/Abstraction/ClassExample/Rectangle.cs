@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Object_Oriented_Programming.Abstraction
+namespace Object_Oriented_Programming.Abstraction.ClassExample
 {
     internal class Rectangle : Shape
     {
