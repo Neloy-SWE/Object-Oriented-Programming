@@ -11,6 +11,7 @@ namespace Object_Oriented_Programming.Abstraction.InterfacesExample
         public void Draw()
         {
             Console.WriteLine("Drawing a square");
+            Console.WriteLine("\n");
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Object_Oriented_Programming.Abstraction;
 using Object_Oriented_Programming.Abstraction.ClassExample;
+using Object_Oriented_Programming.Abstraction.InterfacesExample;
 using Object_Oriented_Programming.Constructor;
 using Object_Oriented_Programming.Encapsulation;
 using Object_Oriented_Programming.Encapsulation.OtherAccessModifiers;
@@ -140,10 +141,18 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 // abstraction:
 // class:
 
-Shape circle = new Circle();
-circle.Info();
-circle.Draw();
+//Shape circle = new Circle();
+//circle.Info();
+//circle.Draw();
 
-Shape rectangle = new Rectangle();
-rectangle.Info();
-rectangle.Draw();
+//Shape rectangle = new Rectangle();
+//rectangle.Info();
+//rectangle.Draw();
+
+// interface:
+
+IShape triangle = new Triangle();
+triangle.Draw();
+
+IShape square = new Square();
+square.Draw();
