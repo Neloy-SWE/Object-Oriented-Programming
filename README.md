@@ -66,3 +66,10 @@ abstraction is the process of hiding implementation details and showing only the
 **abstract class:** an abstract class serves as a blueprint for other classes. it can have abstract methods (without implementation) and concrete methods (with implementation). it cannot be instantiated.
 
 **interface:** an interface is a contract that defines a set of methods or properties without implementations. classes implementing an interface must provide the implementation.
+
+### polymorphism:
+polymorphism allows one interface to be used for different implementations.
+
+Type:
+1. compile-time polymorphism (method overloading): multiple methods with the same name but different parameters.
+2. run-time polymorphism (method overriding): a method in a derived class overrides a method in the base class.
