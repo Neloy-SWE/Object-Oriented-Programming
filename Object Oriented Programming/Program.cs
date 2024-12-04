@@ -1,6 +1,7 @@
 ﻿using Object_Oriented_Programming.Constructor;
 using Object_Oriented_Programming.Encapsulation;
 using Object_Oriented_Programming.Encapsulation.OtherAccessModifiers;
+using Object_Oriented_Programming.Inheritance.Hybrid;
 using Object_Oriented_Programming.Inheritance.MultiLevel;
 using Object_Oriented_Programming.Inheritance.MultiLevel.Derived;
 using Object_Oriented_Programming.Inheritance.Single.Derived;
@@ -39,21 +40,21 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 //check.RunTask();
 
 // other modifiers check:
-EmployeeDetails employee = new();
-employee.SetEmployeeDetails(id: "E123", department: "Development", salaryAmount: 60000, roleName: "Developer");
-employee.Name = "Jhon";
-employee.DisplayDetails();
+//EmployeeDetails employee = new();
+//employee.SetEmployeeDetails(id: "E123", department: "Development", salaryAmount: 60000, roleName: "Developer");
+//employee.Name = "Jhon";
+//employee.DisplayDetails();
 
 
-ManagerDetails manager = new();
-manager.SetManagerDetails(department: "Management", salaryAmount: 80000, roleName: "Team Lead");
-manager.Name = "Jane";
-Console.WriteLine("Manager Name: " + manager.Name);
-manager.DisplayManagerDetails();
+//ManagerDetails manager = new();
+//manager.SetManagerDetails(department: "Management", salaryAmount: 80000, roleName: "Team Lead");
+//manager.Name = "Jane";
+//Console.WriteLine("Manager Name: " + manager.Name);
+//manager.DisplayManagerDetails();
 
-EngineerDetails engineerDetails = new();
-engineerDetails.SetEngineerDetails(updateCompanyName: "New TechCorp", role: "Senior Developer", "Snow");
-engineerDetails.DisplayEngineerDetails();
+//EngineerDetails engineerDetails = new();
+//engineerDetails.SetEngineerDetails(updateCompanyName: "New TechCorp", role: "Senior Developer", "Snow");
+//engineerDetails.DisplayEngineerDetails();
 
 
 
@@ -121,3 +122,14 @@ engineerDetails.DisplayEngineerDetails();
 //level2Eng.CheckResponsibilities();
 //level2Eng.ExtraResponsibilities();
 
+
+// hybrid:
+Bengal bengalCat = new();
+bengalCat.SetDetails("Bengal", 1);
+bengalCat.DisplayDetails();
+bengalCat.GetColor();
+
+American americanCat = new();
+americanCat.SetDetails("American", 2);
+americanCat.DisplayDetails();
+americanCat.TrainingStatus();
