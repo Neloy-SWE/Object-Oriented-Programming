@@ -57,3 +57,10 @@ Type:
 5. protected internal: access is limited to the current assembly or types derived from the containing class.
 6. private protected: access is limited to the containing class or types derived from the containing class within the currecnt assembly.
 7. file: the declared type is only visible in the current source file. file scoped types are generally used for source generators.
+
+### Abstraction:
+abstraction is the process of hiding implementation details and showing only the essential features of an object. it is achieved using:
+1. abstract classes
+2. interfaces
+
+**abstract class:** an abstract class serves as a blueprint for other classes. it can have abstract methods (without implementation) and concrete methods (with implementation). it cannot be instantiated.
