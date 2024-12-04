@@ -8,6 +8,7 @@ using Object_Oriented_Programming.Inheritance.Hybrid;
 using Object_Oriented_Programming.Inheritance.MultiLevel;
 using Object_Oriented_Programming.Inheritance.MultiLevel.Derived;
 using Object_Oriented_Programming.Inheritance.Single.Derived;
+using Object_Oriented_Programming.Polymorphism;
 
 
 // constructor:
@@ -157,3 +158,10 @@ using Object_Oriented_Programming.Inheritance.Single.Derived;
 //IShape square = new Square();
 //square.Draw();
 
+
+
+// polymorphism:
+
+Calculator calculator = new();
+calculator.Add(a: 10, b: 5);
+calculator.Add(a: 10, b: 5, c: 20);
