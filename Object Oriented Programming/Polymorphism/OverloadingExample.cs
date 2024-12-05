@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Object_Oriented_Programming.Polymorphism
 {
     // compile-time polymorphism (overloading)
-    internal class Calculator
+    // parameter must need to change to perform overloading
+    internal class OverloadingExample
     {
         public void Add(int a, int b)
         {
