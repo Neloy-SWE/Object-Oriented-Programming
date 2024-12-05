@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Object_Oriented_Programming.Polymorphism.OverrideExampleClasses
 {
-    internal interface Vehicle
+    internal class Car : Vehicle
     {
-        public void DisplayDetails()
+        public new void DisplayDetails()
         {
-            Console.WriteLine("This is a general vehicle.");
+            Console.WriteLine("This is a car.");
         }
     }
 }
