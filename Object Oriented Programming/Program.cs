@@ -7,6 +7,7 @@ using Object_Oriented_Programming.Encapsulation.OtherAccessModifiers;
 using Object_Oriented_Programming.Inheritance.Hybrid;
 using Object_Oriented_Programming.Inheritance.MultiLevel;
 using Object_Oriented_Programming.Inheritance.MultiLevel.Derived;
+using Object_Oriented_Programming.Inheritance.Multiple;
 using Object_Oriented_Programming.Inheritance.Single.Derived;
 using Object_Oriented_Programming.Polymorphism;
 using Object_Oriented_Programming.Polymorphism.OverrideExampleClasses;
@@ -139,6 +140,11 @@ using Object_Oriented_Programming.Polymorphism.OverrideExampleClasses;
 //americanCat.DisplayDetails();
 //americanCat.TrainingStatus();
 
+// multiple:
+ShowResult showResult = new();
+showResult.SetMessage("Code 200");
+showResult.Show();
+
 
 // abstraction:
 // class:
@@ -170,15 +176,15 @@ using Object_Oriented_Programming.Polymorphism.OverrideExampleClasses;
 
 // method overriding:
 
-Vehicle vehicle;
+//Vehicle vehicle;
 //vehicle = new();
 //vehicle.DisplayDetails();
 
-vehicle = new Car();
-vehicle.DisplayDetails();
+//vehicle = new Car();
+//vehicle.DisplayDetails();
 
-vehicle = new Truck();
-vehicle.DisplayDetails();
+//vehicle = new Truck();
+//vehicle.DisplayDetails();
 
-vehicle = new Motorcycle();
-vehicle.DisplayDetails();
+//vehicle = new Motorcycle();
+//vehicle.DisplayDetails();
