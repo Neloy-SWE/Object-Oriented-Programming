@@ -179,3 +179,6 @@ vehicle.DisplayDetails();
 
 vehicle = new Truck();
 vehicle.DisplayDetails();
+
+vehicle = new Motorcycle();
+vehicle.DisplayDetails();
