@@ -9,6 +9,7 @@ using Object_Oriented_Programming.Inheritance.MultiLevel;
 using Object_Oriented_Programming.Inheritance.MultiLevel.Derived;
 using Object_Oriented_Programming.Inheritance.Multiple;
 using Object_Oriented_Programming.Inheritance.Single.Derived;
+using Object_Oriented_Programming.OtherTopics;
 using Object_Oriented_Programming.Polymorphism;
 using Object_Oriented_Programming.Polymorphism.OverrideExampleClasses;
 
@@ -188,3 +189,19 @@ showResult.Show();
 
 //vehicle = new Motorcycle();
 //vehicle.DisplayDetails();
+
+// Other topics:
+
+// static vs instance:
+StaticInstanceExample object1 = new();
+StaticInstanceExample object2 = new();
+
+/*
+ * we create here 2 obejct of StaticInstanceExample class
+ * for both time we call the StaticInstanceExample class's constructor
+ * for static member it will store 2 count
+ */
+
+Console.WriteLine($"Total count: {StaticInstanceExample.TotalCount}");
+Console.WriteLine($"Instance count for object 1: {object1.InstanceCount}");
+Console.WriteLine($"Instance count for object 1: {object2.InstanceCount}");
