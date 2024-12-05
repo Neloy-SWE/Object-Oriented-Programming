@@ -9,5 +9,6 @@ namespace Object_Oriented_Programming.Inheritance.Multiple
     internal interface Error
     {
         internal void SetMessage(string message);
+        internal void Show();
     }
 }
