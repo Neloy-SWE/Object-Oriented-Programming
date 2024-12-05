@@ -73,3 +73,10 @@ polymorphism allows one interface to be used for different implementations.
 Type:
 1. compile-time polymorphism (method overloading): multiple methods with the same name but different parameters.
 2. run-time polymorphism (method overriding): a method in a derived class overrides a method in the base class.
+
+
+### Other topic:
+
+#### static vs instance:
+static members: belong to the class and are share among all obejcts.
+instance members: belong to an obejct and are unique for each instance.
